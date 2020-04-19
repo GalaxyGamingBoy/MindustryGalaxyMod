@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Diamontium Smelter
+description: Combines lead and titanium to produce electrum.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      lead/5
+	  titanium/2
+    ]
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  silver/50
+  sand/20
+]
+category: crafting
+research: silver-crucible
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamontium/1

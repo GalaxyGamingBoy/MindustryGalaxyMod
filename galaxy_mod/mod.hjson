@@ -1,0 +1,6 @@
+name: "galaxy_mod"
+displayName: "[orange]Galaxy[gold] Mod" //what displays in the mod selection menu
+author: "GalaxyGamingBoy"
+description: "A simple mod."
+version: "1.0"
+minGameVersion: "103"
